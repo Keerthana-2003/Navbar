@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Side Navigation Bar</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script>
+</head>
+<body>
+
+  <div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">BANKING AND FINANCE</div>
+      <ul>
+        <div class="search-box">
+        <input class="search-txt" type="text" name="" class="search-txt1"placeholder="Type to search">
+        <a class="search-btn" href="#">
+         
+            <i class="fas fa-search"></i>
+            
+        </a>
+        
+        </div>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar">
+      <ul>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-house-user"></i></span>
+          <span class="title">HOME</span></a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-file-video"></i></span>
+          <span class="title">TRANSACTIONS</span>
+          </a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fa-solid fa-chart-line"></i></span>
+          <span class="title">ANALYSIS</span>
+          </a></li>
+        <li><a href="#" >
+          <span class="icon"><i class="fa-solid fa-calendar-day"></i></span>
+          <span class="title">CALENDER</span>
+          </a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-leaf"></i></span>
+          <span class="title">CONTACT US</span>
+          </a></li>
+    </ul>
+  </div>
+ 
+  <div class="animation-area">
+   
+		<ul class="box-area">
+      
+      
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+ 
+</div>
+
+</body>
+</html>
